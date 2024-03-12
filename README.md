@@ -1,16 +1,21 @@
-# mason
+# ren_mason
 
-A new Flutter project.
+[![Powered by Mason](https://img.shields.io/endpoint?url=https%3A%2F%2Ftinyurl.com%2Fmason-badge)](https://github.com/felangel/mason)
 
-## Getting Started
+(mason)[https://pub.dev/packages/mason]
 
-This project is a starting point for a Flutter application.
+### インストール
+```sh
+$ dart pub global activate mason_cli
+```
 
-A few resources to get you started if this is your first Flutter project:
+### masonテンプレートの作成
+```shell
+$ mason new MASONNAME
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 公開
+```shell
+$  mason add -g TEMPLATENAME --path MASONNAME's PATH
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
