@@ -1,0 +1,7 @@
+bricks:
+  feature:
+    git:
+      url: "https://github.com/rensawamo/mason.git"
+      path: bricks\dev\mason
+  ren_mason:
+    path: "dev\mason\ren_mason"
